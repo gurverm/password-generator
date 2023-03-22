@@ -22,6 +22,15 @@ while (passwordLength < 8 || length > 128) {
   passwordLength = prompt("Try again. Choose a value between 8 and 128:")
 }
 
+var lowerCase = confirm("Include lowercase character(s)?");
+var upperCase = confirm("Include uppercase character(s)?");
+var numericValue = confirm("Include numeric value(s)?");
+var special = confirm("Include special character(s)?");
+
+
+
+
+
 /* Pseudo Code
 
 - generate password length. length < 8 OR length > 128
