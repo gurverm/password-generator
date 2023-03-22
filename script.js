@@ -10,6 +10,18 @@ function writePassword() {
 
 }
 
+function generatePassword() {
+  var password = "";
+  var characters = "";
+
+  var passwordLength = prompt("Choose the length of the password (between 8 and 128 characters):");
+
+}
+//for loop not working
+while (passwordLength < 8 || length > 128) {
+  passwordLength = prompt("Try again. Choose a value between 8 and 128:")
+}
+
 /* Pseudo Code
 
 - generate password length. length < 8 OR length > 128
