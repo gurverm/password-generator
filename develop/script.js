@@ -16,17 +16,26 @@ function generatePassword() {
 
   var passwordLength = prompt("Choose the length of the password (between 8 and 128 characters):");
 
-}
+
+
+
+
 //for loop not working
 if (passwordLength < 8 || password > 128) {
   alert("Try again. Choose a value between 8 and 128:");
   return "";
 }
 
+
+
+
 var lowerCase = confirm("Include lowercase character(s)?");
 var upperCase = confirm("Include uppercase character(s)?");
 var numericValue = confirm("Include numeric value(s)?");
 var specialChar = confirm("Include special character(s)?");
+
+
+
 
 if (lowerCase) {
   characters += "abcdefghijklmnopqrstuvwxyz";
@@ -41,50 +50,26 @@ if (numericValue) {
 }
 
 if (specialChar) {
-  characters += "!#$%&'()*+,-./:;<=>?@[\]^`{|}~_";
+  characters += "!#$%&'()*+,-./:;<=>?@[\]^`{|}~_"; //referenced CSS document of special characters, unsure what classifies
 }
 
+while (!lowerCase && !upperCase && !numericValue && !specialChar) {
+  alert("At least one character type must be selected!");
 
+  lowerCase = confirm("Include lowercase character(s)?");
+  upperCase = confirm("Include uppercase character(s)?");
+  numericValue = confirm("Include numeric value(s)?");
+  specialChar = confirm("Include special character(s)?");
 
+}
 
-/* Pseudo Code
+for (var i = 0; i < passwordLength; i++) {
+  password += characters.charAt(Math.floor(Math.random() * characters.passwordLength));
+}
 
-- generate password length. length < 8 OR length > 128
-    (for loop or while statement)
-
--create variables for password characteristics
-  uppercase, lowercase, numbers, and/or special characters
-
-- create loop for variables (use for or while ?)
-
-- create arrays for each variable password characteristics
-
-
-
-- generate password using above function
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+alert("This is your secure password: "+ password);
+return(password);
+}
 
 
 // Add event listener to generate button
