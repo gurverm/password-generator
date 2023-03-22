@@ -1,4 +1,4 @@
-
+// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
@@ -18,8 +18,9 @@ function generatePassword() {
 
 }
 //for loop not working
-while (passwordLength < 8 || length > 128) {
-  passwordLength = prompt("Try again. Choose a value between 8 and 128:")
+if (passwordLength < 8 || password > 128) {
+  alert("Try again. Choose a value between 8 and 128:");
+  return "";
 }
 
 var lowerCase = confirm("Include lowercase character(s)?");
