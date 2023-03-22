@@ -24,11 +24,7 @@ Note: since I only have one deployed application the remaining images direct you
 link to deployed application: https://gurverm.github.io/my-portfolio/ 
 ## Credits
 
-https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
-
-https://www.w3schools.com/cssref/sel_firstchild.php
-
-https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_top_left 
+https://mathiasbynens.be/notes/css-escapes#:~:text=The%20following%20characters%20have%20a,you%20want%20to%20use%20them.
 
 
 ## License

@@ -1,4 +1,4 @@
-// Assignment Code
+
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
@@ -25,8 +25,23 @@ while (passwordLength < 8 || length > 128) {
 var lowerCase = confirm("Include lowercase character(s)?");
 var upperCase = confirm("Include uppercase character(s)?");
 var numericValue = confirm("Include numeric value(s)?");
-var special = confirm("Include special character(s)?");
+var specialChar = confirm("Include special character(s)?");
 
+if (lowerCase) {
+  characters += "abcdefghijklmnopqrstuvwxyz";
+}
+
+if (upperCase) {
+  characters += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+}
+
+if (numericValue) {
+  characters += "0123456789";
+}
+
+if (specialChar) {
+  characters += "!#$%&'()*+,-./:;<=>?@[\]^`{|}~_";
+}
 
 
 
