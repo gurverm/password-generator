@@ -26,6 +26,9 @@ link to deployed application: https://gurverm.github.io/my-portfolio/
 
 https://mathiasbynens.be/notes/css-escapes#:~:text=The%20following%20characters%20have%20a,you%20want%20to%20use%20them.
 
+https://www.w3schools.com/js/js_if_else.asp
+
+https://www.w3schools.com/jsref/jsref_charat.asp
 
 ## License
 
