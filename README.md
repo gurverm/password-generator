@@ -16,8 +16,8 @@ N/A
 This random password generator creates passwords based on the users choice. Users can choose between 8-128 characters, uppercase and lowercase characters, numerical values present, and special characters present. Upon generation there is an alert box that displays the password as well as the dotted box present on the webpage. 
 
 
-![Password-Generator Deployed](/develop/images/alertBox.PNG)
-![](/develop/images/Deployed.PNG)
+![Password-Generator Deployed](/assets/images/alertBox.PNG)
+![](/assets/images/Deployed.PNG)
 
 
 link to deployed application: https://gurverm.github.io/password-generator/
