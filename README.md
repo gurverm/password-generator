@@ -20,7 +20,7 @@ This random password generator creates passwords based on the users choice. User
 ![](/develop/images/Deployed.PNG)
 
 
-link to deployed application: https://gurverm.github.io/my-portfolio/ 
+link to deployed application: https://gurverm.github.io/password-generator/
 ## Credits
 
 https://mathiasbynens.be/notes/css-escapes#:~:text=The%20following%20characters%20have%20a,you%20want%20to%20use%20them.
